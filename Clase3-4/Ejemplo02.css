@@ -1,0 +1,18 @@
+h1{
+    /*COMENTARIO EN CSS*/
+    color: blue;
+    background-color: yellow;
+    text-transform: uppercase;
+
+}
+h2{
+    color: red;
+    text-align: center;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px; /*alto de linea-separacion*/
+}
+.principal{
+    text-decoration: underline;
+}

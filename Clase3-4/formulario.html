@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Complete el siguiente formulario</h2>
+    <form action="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text"/>
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido">
+        </p>
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password">
+        </p>
+        <p>
+            <label for="">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" value="hombre" name="sexo"/>
+                    <label for="">hombre</label>
+                </li>
+                <li>
+                    <input type="radio" value="mujer" name="sexo"/>
+                    <label for=""> mujer</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="bailar">
+                    <label for="">bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="cantar">
+                    <label for="cantar"></label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Hobbies[]" value="correr">
+                    <label for="">correr</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Estudios</label>
+            <select name="" id="">
+                <option value="Secundario">Secundario</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Comentarios/Quejas/Sugerencias</label>
+            <textarea name=""></textarea>
+        </p>
+        <p>
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+</html>
