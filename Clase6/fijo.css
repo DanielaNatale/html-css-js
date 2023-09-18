@@ -1,0 +1,13 @@
+.caja{
+    background-color: aquamarine;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+p{
+    color: black;
+    margin-top: 52px;
+}

@@ -1,0 +1,16 @@
+/*font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;*/
+
+p{
+    color: red;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+h1{
+    color: blue;
+    font-family: 'Permanent Marker', cursive;
+}
+
+i{
+    color: black;
+}

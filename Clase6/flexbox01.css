@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: grey;
+    display: inline-flex;
+    /*display: flex;*/
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}

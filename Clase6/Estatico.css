@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: grey;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+
+}
+
+.verde{
+    background-color: green;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto 20px;
+}
+
+.azul{
+    background-color: blue;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto 20px;
+}
+
+.rojo{
+    background-color: red;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto 20px;
+}
