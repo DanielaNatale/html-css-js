@@ -1,0 +1,30 @@
+#rojo{
+    background-color: red;
+    width: 25%;
+    /*En lineas generales no usamos la altura porque se lo va a dar el contenido pero tranquilamente si necesito un tamano exacto se puede agregar la etiqueta de HEIGHT*/
+    padding: 10px;
+    border: 2px dashed black;
+    box-sizing: border-box;
+}
+#azul{
+    background-color: blue;
+    width: 25%;
+    color: white;
+    margin-left: 20px;
+    /*diferencia entre padding y margin: margin juega con lo exterior a la caja, padding modifica dentro de la caja*/
+}
+
+/*Otros ejemplos de padding o margin
+
+margin: 5px 10px 15px 20px; AGUJA DEL RELOJ
+
+margin: 5px 10px 20px; ARRIBA IZQDER ABAJO
+
+margin: 5px 10px; ARRIBAABAJO IZQDER
+
+margin: 20px; TODOS
+
+*/
+
+
+
