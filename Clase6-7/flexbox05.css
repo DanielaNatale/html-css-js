@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: grey;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+    align-items: stretch;/*SE ADAPTA AL CONTENIDO*/
+    align-items: center;
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

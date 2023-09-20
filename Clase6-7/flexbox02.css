@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: grey;
+    display: inline-flex;
+    /*display: flex;*/
+    flex-wrap: wrap;/*desbordamiento-multilinea*/
+}
+
+.item{
+    background-color: lightblue;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+}

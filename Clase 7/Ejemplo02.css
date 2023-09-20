@@ -1,0 +1,18 @@
+.caja{
+    background-color: lightblue;
+    width: 400px;
+    height: 300px;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    /* transition: all 0.8s ease; */
+    /*las transiciones se dejen colocar en el elemento base*/
+    /* transform: rotate(90deg); */
+
+}
+
+.caja:hover{
+    transform: scale(1.1,1.1);
+}

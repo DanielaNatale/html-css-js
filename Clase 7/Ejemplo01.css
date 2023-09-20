@@ -1,0 +1,29 @@
+.caja{
+    background-color: lightblue;
+    width: 400px;
+    height: 300px;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    transition: all 0.8s ease;
+    /*las transiciones se dejen colocar en el elemento base*/
+    opacity: 0.5;
+}
+
+.caja:hover{
+    box-shadow: inset 0 0 0 25px red;
+    background-color: blue;
+}
+
+img{
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+img:hover{
+    filter: grayscale(0);
+    border-right: 12px solid red;
+}
