@@ -1,27 +1,21 @@
-function todoslosparrafos(){
-    const allparrafos = document.getElementsByTagName('p');
+const items = document.getElementsByClassName('item');
 
-    const num = allparrafos.length;
+function CambiarVisibilidad(numItem){
+    const item = items[numItem];
+        if (item.style.visibility == '') {
+            item.style.visibility = 'hidden';
+        } else {
+            item.style.visibility = '';
+        }
 
-    alert(`Hay ${num} elementos <p> en este documento`)
 }
 
-function parrafoscaja1(){
-    const parrafos1 = document.getElementById('caja1');
+function CambiarDisplay(numItem){
+    const item = items[numItem];
+        if (item.style.display == '') {
+            item.style.display = 'none';
+        } else {
+            item.style.display = '';
+        }
 
-    const num1 = caja1.getElementsByTagName('p');
-
-    const caja1p = num1.length;
-
-    alert(`Hay ${caja1p} elementos <p> en esta parte del documento`)
-}
-
-function parrafoscaja2(){
-    const parrafos2 = document.getElementById('caja2');
-
-    const num2 = caja2.getElementsByTagName('p');
-
-    const caja2p = num2.length;
-
-    alert(`Hay ${caja2p} elementos <p> en esta parte del documento`)
 }
