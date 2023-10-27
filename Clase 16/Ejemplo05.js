@@ -6,5 +6,5 @@ alternar.addEventListener('click', function(e){
 
 // classList > representa la lsita de clases asignadas a un elemento.
 // toggle > cambio, ejemplo "prender" o "apagar".
-// add o remove
+// add o remover
 
