@@ -24,12 +24,20 @@ const empleados = [
 //Metodo array > que solo me muestre los desarrolladores
 //
 
-const edades = alumnos.filter(alumno => alumno.edad >= 5);
+const desarrolladores = empleados.filter(empleados => empleados.trabajo=='desarrollador')
 
-console.log(edades)
-
-for( let i = 0; i < edades.length; i++){
-
-    document.write(`<li> Alumno ${edades[i].nombre} tiene actualmente ${edades[i].edad} anios </li>`);
+for(let i = 0; i < desarrolladores.length; i++){
+    document.write(`<li> ${desarrolladores[i].nombre} es ${desarrolladores[i].trabajo}</li>`)
 }
 
+console.log(desarrolladores)
+
+//-------------------------------------------------
+const NoDesarrolladores = empleados.filter(empleados => empleados.trabajo !=='desarrollador')
+
+
+for(let i = 0; i < NoDesarrolladores.length; i++){
+    document.write(`<li> ${NoDesarrolladores[i].nombre} es ${NoDesarrolladores[i].trabajo}</li>`)
+}
+ 
+console.log(NoDesarrolladores)

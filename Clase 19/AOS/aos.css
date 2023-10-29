@@ -1,0 +1,8 @@
+.rectangulo{
+    padding: 150px;
+    border: 10px solid red;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+}
