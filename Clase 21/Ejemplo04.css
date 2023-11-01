@@ -1,0 +1,19 @@
+.verde{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: green;
+}
+
+.rojo{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: red;
+}
+.azul{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: blue;
+}
